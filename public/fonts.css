@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "parisienne";
+    src: url("./Fonts/Parisienne-Regular.ttf")format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("./Fonts/Montserrat-VariableFont_wght.ttf")format("truetype");
+    font-weight: normal;
+}

@@ -1,0 +1,33 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    grid-auto-flow: dense;
+    grid-auto-rows: 250px;
+    grid-auto-columns: 300px;
+}
+
+.bajo, .alto {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    will-change: transform, opacity;
+    cursor: pointer;
+}
+
+.bajo:hover, .alto:hover {
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.alto {
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 890px) {
+    .gridContainer {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

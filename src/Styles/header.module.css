@@ -1,0 +1,19 @@
+.header {
+    margin: auto; 
+    padding: 20px;
+    padding-bottom: 0; 
+}
+
+.titulo {
+    font-family: "Parisienne";
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+.separador {
+    width: 100%;
+    background-color: #eee;
+    height: 1px;
+    margin-top: 25px;
+}
